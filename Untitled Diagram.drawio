@@ -1,42 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T19:13:19.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UtCcrzaXi3MGukNkKWDO" version="20.8.20" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-25T19:39:50.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="R7U8WN-1KZRY88SYd7rD" version="20.8.20" type="github" pages="2">
   <diagram name="HTTP Remove Listener" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="3084" dy="1258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2271" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-101" value="Environment" style="shape=process;whiteSpace=wrap;align=right;verticalAlign=top;size=0;fontStyle=1;strokeWidth=1;fontSize=14;rounded=1;arcSize=0;glass=0;dashed=1;shadow=0;fillColor=#FFFFFF;opacity=80;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="-780" y="30" width="1500" height="1170" as="geometry" />
+        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-101" value="Environment" style="shape=process;whiteSpace=wrap;align=right;verticalAlign=top;size=0;fontStyle=0;strokeWidth=1;fontSize=14;rounded=1;arcSize=0;glass=0;dashed=1;shadow=0;fillColor=#FFFFFF;opacity=80;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="30" width="1510" height="1240" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-143" value="Environment/Solution" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;dashed=1;strokeColor=#009900;strokeWidth=1;fontSize=12;fillColor=#99FF99;opacity=80;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="60" width="1500" height="156" as="geometry" />
+          <mxGeometry x="-800" y="60" width="1520" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Help Desk" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="TVsuiHT1ghC6Kj3LhSkQ-143" vertex="1">
+          <mxGeometry x="40" y="30" width="370" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="HTTP POST API Call" style="text;spacingTop=-5;align=center" parent="TVsuiHT1ghC6Kj3LhSkQ-143" vertex="1">
+          <mxGeometry x="474" y="52" width="71" height="20" as="geometry" />
         </mxCell>
         <mxCell id="55" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="12" target="2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-510" y="450" as="sourcePoint" />
             <mxPoint x="-410" y="350" as="targetPoint" />
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="-360" y="130" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-110" value="Dataverse" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;dashed=1;strokeColor=#b46504;strokeWidth=1;fontSize=12;fillColor=#fad7ac;opacity=80;startSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="221" width="1500" height="979" as="geometry" />
+          <mxGeometry x="-800" y="245" width="1520" height="1029" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-102" value="&lt;b&gt;License Assignee&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(msftpp_license_assignees)&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeWidth=1;fontSize=11;strokeColor=#99FF99;fillColor=#FFF2CC;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110">
-          <mxGeometry x="213" y="10" width="269" height="150" as="geometry" />
+          <mxGeometry x="232" y="10" width="268" height="150" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-103" value="msftpp_license_assigneeid&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#000000&quot;&gt;(PK)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;shadow=0;fontColor=#FF3333;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-102">
-          <mxGeometry y="30" width="269" height="30" as="geometry" />
+          <mxGeometry y="30" width="268" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-104" value="emailaddress" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-102">
-          <mxGeometry y="60" width="269" height="30" as="geometry" />
+          <mxGeometry y="60" width="268" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-105" value="msftpp_name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-102">
-          <mxGeometry y="90" width="269" height="30" as="geometry" />
+          <mxGeometry y="90" width="268" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-106" value="_msftpp_default_cost_center_id_value" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-102">
-          <mxGeometry y="120" width="269" height="30" as="geometry" />
+          <mxGeometry y="120" width="268" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-111" value="&lt;b&gt;License Contracts &lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(msftpp_license_contracts)&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeWidth=1;fontSize=11;strokeColor=#99FF99;fillColor=#FFF2CC;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110">
-          <mxGeometry x="213" y="185" width="269" height="210" as="geometry" />
+          <mxGeometry x="232" y="185" width="269" height="210" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-112" value="msftpp_license_contractid&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(PK)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;shadow=0;fontColor=#FF3333;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-111">
           <mxGeometry y="30" width="269" height="30" as="geometry" />
@@ -57,7 +65,7 @@
           <mxGeometry y="180" width="269" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-118" value="&lt;b&gt;License Assignments&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(msftpp_license_assignments)&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeWidth=1;fontSize=11;strokeColor=#99FF99;fillColor=#FFF2CC;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110">
-          <mxGeometry x="253" y="637" width="269" height="330" as="geometry" />
+          <mxGeometry x="232" y="637" width="269" height="330" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-119" value="msftpp_license_assignmentid&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;(PK)&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;shadow=0;fontColor=#FF3333;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-118">
           <mxGeometry y="30" width="269" height="30" as="geometry" />
@@ -111,7 +119,7 @@
           <mxGeometry y="180" width="269" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-130" value="&lt;b&gt;Integration Logging&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(ba_integrationlogging)&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeWidth=1;fontSize=11;strokeColor=#99FF99;fillColor=#D5E8D4;" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110">
-          <mxGeometry x="1288" y="787" width="170" height="180" as="geometry" />
+          <mxGeometry x="1290" y="787" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-132" value="Name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-130">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -128,20 +136,20 @@
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-136" value="Recommended Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=0" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-130">
           <mxGeometry y="150" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-179" value="contract has &lt;br&gt;many licenses" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;fontSize=10;fontColor=#000000;jumpStyle=arc;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;textDirection=ltr;html=1;" edge="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110">
+        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-179" value="contract has &lt;br&gt;many licenses" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;fontSize=10;fontColor=#000000;jumpStyle=arc;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;textDirection=ltr;html=1;" edge="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110" source="TVsuiHT1ghC6Kj3LhSkQ-112">
           <mxGeometry x="-0.4336" y="1" relative="1" as="geometry">
             <mxPoint x="213" y="229" as="sourcePoint" />
             <mxPoint x="236" y="456" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="165" y="229" />
-              <mxPoint x="165" y="456" />
+              <mxPoint x="170" y="229" />
+              <mxPoint x="170" y="456" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-180" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;rounded=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=1;strokeColor=#009900;strokeWidth=1;fontSize=10;fontColor=#000000;fillColor=#99FF99;opacity=80;" connectable="0" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-179">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-73" as="offset" />
+            <mxPoint x="-93" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-181" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;rounded=1;shadow=0;glass=0;dashed=1;dashPattern=1 1;sketch=1;strokeColor=#009900;strokeWidth=1;fontSize=10;fontColor=#000000;fillColor=#99FF99;opacity=80;" connectable="0" vertex="1" parent="TVsuiHT1ghC6Kj3LhSkQ-179">
@@ -149,7 +157,7 @@
             <mxPoint x="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-182" value="contract has many&lt;br&gt;license assignments" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;fontSize=10;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110" source="TVsuiHT1ghC6Kj3LhSkQ-112">
+        <mxCell id="TVsuiHT1ghC6Kj3LhSkQ-182" value="contract has many&lt;br&gt;license assignments" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;fontSize=10;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110" source="TVsuiHT1ghC6Kj3LhSkQ-112" target="TVsuiHT1ghC6Kj3LhSkQ-121">
           <mxGeometry x="-0.4972" relative="1" as="geometry">
             <mxPoint x="-137" y="429" as="sourcePoint" />
             <mxPoint x="253" y="772" as="targetPoint" />
@@ -171,12 +179,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-74" value="license contract has &lt;br&gt;many assignments" style="endArrow=open;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=1;fontSize=10;fontColor=#000000;jumpStyle=arc;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=middle;textDirection=ltr;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="TVsuiHT1ghC6Kj3LhSkQ-110" source="TVsuiHT1ghC6Kj3LhSkQ-125" target="TVsuiHT1ghC6Kj3LhSkQ-122">
-          <mxGeometry x="-0.4672" y="10" relative="1" as="geometry">
+          <mxGeometry x="-0.4475" relative="1" as="geometry">
             <mxPoint x="223" y="268" as="sourcePoint" />
             <mxPoint x="246" y="495" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="166" y="486" />
-              <mxPoint x="166" y="742" />
+              <mxPoint x="170" y="486" />
+              <mxPoint x="170" y="742" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -204,17 +212,17 @@
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-87" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;license assignment has one&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;license assignee&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="NLZe6_HgKIpcnijliFFJ-85">
           <mxGeometry x="-0.3037" y="-2" relative="1" as="geometry">
-            <mxPoint x="98" y="184" as="offset" />
+            <mxPoint x="78" y="205" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-69" value="Power Automate Platform" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#9999FF;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="60" width="920" height="850" as="geometry" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-69" value="Power Automate Platform" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;strokeColor=#9999FF;fontStyle=0;align=right;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="60" width="940" height="910" as="geometry" />
         </mxCell>
         <mxCell id="2" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;/p&gt;&lt;u style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;HTTP Remove License &lt;br&gt;Assignment Listener&lt;/font&gt;&lt;/u&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;The API Endpoint for sending&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; font-size: 11px;&quot;&gt;the HTTP Post Requests&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#E6FFCC" parent="NLZe6_HgKIpcnijliFFJ-69" vertex="1">
-          <mxGeometry x="40" y="40" width="170" height="90" as="geometry" />
+          <mxGeometry x="40" y="34" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Initialize Variables&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;This is where we set values&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;later as the flow progresses&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;and passes validations.&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#E6FFCC" parent="NLZe6_HgKIpcnijliFFJ-69" vertex="1">
-          <mxGeometry x="249" y="40" width="170" height="90" as="geometry" />
+          <mxGeometry x="270" y="34" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="67" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="NLZe6_HgKIpcnijliFFJ-69" source="2" target="6" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -222,66 +230,80 @@
             <mxPoint x="533" y="-159" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-71" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP #1&lt;/b&gt;&lt;br&gt;Performs search for the &lt;b&gt;Assignee &lt;/b&gt;record in the Dataverse using the value &lt;/font&gt;(&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ea6b66&quot;&gt;email&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;) sent in the HTTP Post Request&lt;/span&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#9999FF;strokeWidth=1;fontSize=15;fontColor=#EA6B66;spacingLeft=12;spacingRight=12;size=10;verticalAlign=top;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="40" y="194" width="380" height="106" as="geometry" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-71" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP #1&lt;/b&gt;&lt;br&gt;Performs search for the &lt;b&gt;Assignee &lt;/b&gt;record in the Dataverse using the value &lt;/font&gt;(&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ea6b66&quot;&gt;email&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;) sent in the HTTP Post Request&lt;/span&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#9999FF;strokeWidth=1;fontSize=15;fontColor=#EA6B66;spacingLeft=12;spacingRight=12;size=10;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
+          <mxGeometry x="40" y="210" width="380" height="106" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-88" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP #2&lt;/b&gt;&lt;br&gt;Performs search for the &lt;b&gt;Contract &lt;/b&gt;record in the Dataverse using the value &lt;/font&gt;(&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ea6b66&quot;&gt;contractName&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;) sent in the HTTP Post Request&lt;/span&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#9999FF;strokeWidth=1;fontSize=15;fontColor=#EA6B66;spacingLeft=12;spacingRight=12;size=10;verticalAlign=top;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="40" y="368" width="380" height="106" as="geometry" />
+          <mxGeometry x="40" y="384" width="380" height="106" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-90" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP #3&lt;/b&gt;&lt;br&gt;Performs search for the &lt;b&gt;License &lt;/b&gt;record in the Dataverse using the value &lt;/font&gt;(&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ea6b66&quot;&gt;licenseName&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;) sent in the HTTP Post Request&lt;/span&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#9999FF;strokeWidth=1;fontSize=15;fontColor=#EA6B66;spacingLeft=12;spacingRight=12;size=10;verticalAlign=top;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="40" y="562" width="380" height="106" as="geometry" />
+          <mxGeometry x="40" y="578" width="380" height="106" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-92" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;STEP #4&lt;/b&gt;&lt;br&gt;Performs search for the &lt;b&gt;License Assignment&amp;nbsp;&lt;/b&gt;record in the Dataverse based on results from all previous steps.&lt;/font&gt;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeColor=#9999FF;strokeWidth=1;fontSize=15;fontColor=#EA6B66;spacingLeft=12;spacingRight=12;size=10;verticalAlign=top;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="40" y="700" width="380" height="106" as="geometry" />
+          <mxGeometry x="40" y="716" width="380" height="106" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-93" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="NLZe6_HgKIpcnijliFFJ-69" source="NLZe6_HgKIpcnijliFFJ-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-79" y="755" as="targetPoint" />
+            <mxPoint x="-79" y="771" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-97" value="Enabled?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFCC;fontStyle=1;strokeWidth=3;rounded=1;dashed=1;dashPattern=1 4;labelBackgroundColor=none;strokeColor=#9999FF;fontSize=10;fontColor=#000000;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="749" y="600" width="80" height="80" as="geometry" />
+          <mxGeometry x="735.5" y="210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-96" value="Contract Integration Logging Enabled&#xa;(ba_ContractIntegrationLoggingEnabled)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;strokeWidth=3;fillColor=#FFFFCC" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
-          <mxGeometry x="672" y="59.5" width="230" height="51" as="geometry" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-100" value="Environment Variables" style="swimlane;whiteSpace=wrap;html=1;rounded=1;dashed=1;dashPattern=1 4;labelBackgroundColor=none;strokeColor=#FF0080;strokeWidth=1;fontSize=12;fontColor=#000000;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-69">
+          <mxGeometry x="530" y="34" width="340" height="136" as="geometry" />
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-99" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="NLZe6_HgKIpcnijliFFJ-69" source="NLZe6_HgKIpcnijliFFJ-96" target="NLZe6_HgKIpcnijliFFJ-97">
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-104" value="Notification Error Email Address&#xa;(ba_NotificationErrorToAddress)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;strokeWidth=3;fillColor=#D5E8D4;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-100">
+          <mxGeometry x="22.5" y="31" width="295" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-96" value="Contract Integration Logging Enabled&#xa;(ba_ContractIntegrationLoggingEnabled)" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=0;strokeWidth=3;fillColor=#D5E8D4;" vertex="1" parent="NLZe6_HgKIpcnijliFFJ-100">
+          <mxGeometry x="22.5" y="86" width="296" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-102" value="" style="endArrow=classic;html=1;rounded=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;" edge="1" parent="NLZe6_HgKIpcnijliFFJ-69" source="NLZe6_HgKIpcnijliFFJ-100" target="6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="310" as="sourcePoint" />
+            <mxPoint x="1030" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-99" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="NLZe6_HgKIpcnijliFFJ-69" source="NLZe6_HgKIpcnijliFFJ-96" target="NLZe6_HgKIpcnijliFFJ-97">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="688" as="sourcePoint" />
             <mxPoint x="801" y="730" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="Help Desk" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
-          <mxGeometry x="-531" y="126" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="52" value="HTTP POST API Call" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
-          <mxGeometry x="-394" y="119" width="71" height="20" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-72" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-71" target="TVsuiHT1ghC6Kj3LhSkQ-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-89" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-88" target="TVsuiHT1ghC6Kj3LhSkQ-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-314" y="462" as="targetPoint" />
+            <mxPoint x="-314" y="478" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NLZe6_HgKIpcnijliFFJ-91" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#000000;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-90" target="TVsuiHT1ghC6Kj3LhSkQ-126">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-310" y="622" as="targetPoint" />
+            <mxPoint x="-310" y="638" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-94" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Logger&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;When logging is enabled&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#E6FFCC" vertex="1" parent="1">
-          <mxGeometry x="488" y="780" width="170" height="90" as="geometry" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-94" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Logger&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;When logging is enabled,&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;each process will write&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;a log entry about the issue&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;and step it&amp;nbsp; is currently at&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=2;fillColor=#E6FFCC" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="380" width="192.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-95" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-94" target="TVsuiHT1ghC6Kj3LhSkQ-130">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="-443" y="156" as="sourcePoint" />
-            <mxPoint x="-182" y="155" as="targetPoint" />
-            <Array as="points" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-98" value="Yes" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NLZe6_HgKIpcnijliFFJ-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="614" y="310" />
+              <mxPoint x="614" y="340" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NLZe6_HgKIpcnijliFFJ-98" value="" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-97" target="NLZe6_HgKIpcnijliFFJ-94">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-105" value="Yes" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLZe6_HgKIpcnijliFFJ-94" target="TVsuiHT1ghC6Kj3LhSkQ-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="320" as="sourcePoint" />
+            <mxPoint x="624" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NLZe6_HgKIpcnijliFFJ-106" value="&lt;div&gt;&lt;b&gt;HTTP POST Request Example&lt;/b&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;contractName&quot;: &quot;Microsoft EA Contract&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;licenseName&quot;: &quot;Mike Reams&amp;nbsp; - Microsoft EA Contract - Power BI&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;email&quot;: &quot;mreams@bennettadelson.com&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#FF0080;strokeWidth=1;fontSize=12;fontColor=#000000;fillColor=#D5E8D4;align=left;spacingLeft=12;spacingRight=6;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="130" width="400" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
